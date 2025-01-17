@@ -16,7 +16,6 @@ export default function HomePage() {
     const newPeer = new Peer();
     newPeer.on("open", (id) => {
       setPeerId(id);
-      console.log("My peer ID is: " + id);
     });
 
     // When somebody calls you:
@@ -70,7 +69,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Next.js Video Call App</h1>
+      <h1>n Ietsie wat mooi lyk. 🤷‍♂️?</h1>
       <p>
         <strong>Your Peer ID:</strong> {peerId}
       </p>
